@@ -1,6 +1,6 @@
 Citizen.CreateThread( function()
     updatePath = "/drkkkkkk/Drk_BlacklistedWords" -- your git user/repo path
-    resourceName = "Drk_BW ("..GetCurrentResourceName()..")" -- the resource name
+    resourceName = "Drk_BlacklistedWords ("..GetCurrentResourceName()..")" -- the resource name
     
     function checkVersion(err,responseText, headers)
         curVersion = LoadResourceFile(GetCurrentResourceName(), "version") -- make sure the "version" file actually exists in your resource root!
